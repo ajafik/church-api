@@ -1,0 +1,25 @@
+{
+  "name": "church-api",
+  "version": "1.0.0",
+  "description": "Church Management Software API",
+  "main": "index.js",
+  "dependencies": {
+    "amqplib": "^0.5.5",
+    "express": "^4.17.1",
+    "ioredis": "^4.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajafik/church-api.git"
+  },
+  "author": "Oluwafikayo Ajayi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajafik/church-api/issues"
+  },
+  "homepage": "https://github.com/ajafik/church-api#readme"
+}
