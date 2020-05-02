@@ -1,0 +1,6 @@
+{
+    "app_name": "Church API",
+    "app_version": "0.0.1",
+    "port": 3000,
+    "api_version": "/v1/api"
+}
