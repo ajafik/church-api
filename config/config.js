@@ -15,7 +15,15 @@ class Config {
     }
 
     static get get_api_version() {
-        return config.api_version || "/v1/api";
+        return config.api_version;
+    }
+
+    static get get_connection_string_postgres() {
+        return config.database_url;
+    }
+
+    static get database_dialet() {
+        return config.db_dialect;
     }
 }
 
