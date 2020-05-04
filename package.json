@@ -17,9 +17,13 @@
     "morgan": "^1.10.0",
     "sequelize": "^5.21.7"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.1.2"
+  },
   "scripts": {
-    "start": "node ."
+    "start": "node .",
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
